@@ -20,4 +20,5 @@ func main() {
 </body>
 </html>`
 	fmt.Fprintf(file, s)
+log.Println("hello, logfile")
 }
